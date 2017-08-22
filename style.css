@@ -1,0 +1,56 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 40px;
+    background: url(http://alliswall.com/file/519/1920x1200/16:9/beautiful-weather.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    position: relative;
+}
+
+#information {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#zip {
+    margin-top: 50px;
+    font-size: 30px;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #C9C9C9;
+    color: white;
+    border: none;
+}
+
+#zip:hover {
+    background-color: #c5cedd;
+}
+
+#submit,
+#reset {
+    width: 150px;
+    padding: 10px;
+    position: absolute;
+    top: 115px;
+    border: none;
+}
+
+button:hover{
+    background-color: #c5cedd;
+}
+
+#reset {
+    left: 155px;
+}
